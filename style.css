@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,900&family=Work+Sans:ital,wght@0,400;1,700&display=swap');
+body {
+  background-color: #F5D3BC;
+}
+hr{
+  color:black;
+}
+.header{
+  /* background-image: linear-gradient(to top, #F5D3BC, rgba(77, 56, 26, 0.1)),url("images/IMG_2488.jpg"); */
+  background-size: 100%;
+}
+.header h1{
+  font-family: 'Source Serif Pro', serif;
+  font-size: 250px;
+  font-weight: 1,900;
+  font-style: italic;
+  line-height: .75em;
+  margin: 0;
+  margin-top: 25px;
+  color:rgb(58, 53, 42);
+}
+h1 img{
+  width: 100px;
+  height: 100px;
+  margin: 0;
+}
+.header h2{
+  font-family: 'Work Sans', sans-serif;
+  color: rgb(58, 53, 42);
+  font-size: 40px;
+  line-height: 2em;
+  margin-top: 0;
+  margin:0;
+}
+.header img {
+  width: 30%;
+  height: 30%;
+  /* filter: gray;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1); */
+  /* background-image: linear-gradient(rgba(181, 112, 112, 0.6), rgba(112, 122, 181, 0.6)), url("images/IMG_2488.jpg"); */
+
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  /* border: 15px solid rgb(61, 51, 21); */
+  opacity: 0.6;
+}
+.body{
+  margin: 0;
+}
+.body p{
+  font-family: 'Work Sans', sans-serif;
+  /* text-transform: uppercase; */
+  color: #F5D3BC;
+  font-size: 120px;
+  font-weight: 1,700;
+  font-style: italic;
+  width: 80%;
+  /* opacity: 0.8; */
+}
+.body a{
+  font-family: 'Source Serif Pro', serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 1,700;
+  font-style: italic;
+  color:rgb(58, 53, 42)
+}
+.body p a:hover{
+  font-family: 'Source Serif Pro', serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 1,700;
+  font-style: italic;
+  color:rgb(255, 255, 255)
+}
+.footer{
+  display:flex;
+  align-items: center;
+}
+.footer p{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 1,700;
+  font-style: italic;
+  margin:0;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 20px;
+  margin: 0;
+}
+.list-inline > li > a {
+  text-decoration: none;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 1,700;
+  color: black;
+  font-style: italic;
+}
